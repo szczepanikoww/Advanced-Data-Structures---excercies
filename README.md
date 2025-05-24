@@ -30,3 +30,17 @@ Drzewo w zadniu wygląda w sposób następujący:
   szkice  pdf   video
 ```
 
+> Podpowiedź: Użyj rekurencji, aby przejść przez drzewo
+
+
+## Zadanie 4. 
+
+Używając bibliotek ``networkx`` i ``matplotlib``, utwórz graf skierowany taki jak na rysunku poniżej. 
+
+
+![image](https://github.com/user-attachments/assets/f7859d47-6191-4cbb-b946-80d8b9aad2ad)
+
+
+Jeśli będziesz miał problem z pozycjonowaniem wierzchołków - zajrzyj [tutaj](https://github.com/szczepanikoww/Advanced-Data-Structures---excercies/wiki/Jak-rysowa%C4%87-grafy-w-Pythonie%3F#4-ustawianie-pozycji-wierzcho%C5%82k%C3%B3w)
+
+
