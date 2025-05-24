@@ -4,13 +4,13 @@ import matplotlib.pyplot as plt
 # WRITE YOUR CODE HERE
 G = ...
 
-pos = {
+positions = {
     # WRITE YOUR CODE HERE
 }
 
 nx.draw(
     G,
-    positions=pos,
+    positions,
     with_labels=True,
     node_color="#1f78b4",
     node_size=1500,
