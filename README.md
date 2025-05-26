@@ -43,4 +43,14 @@ Używając bibliotek ``networkx`` i ``matplotlib``, utwórz graf skierowany taki
 
 Jeśli będziesz miał problem z pozycjonowaniem wierzchołków - zajrzyj [tutaj](https://github.com/szczepanikoww/Advanced-Data-Structures---excercies/wiki/Jak-rysowa%C4%87-grafy-w-Pythonie%3F#4-ustawianie-pozycji-wierzcho%C5%82k%C3%B3w)
 
+## Zadanie 5. 
+
+Dany jest nieskierowany graf w postaci macierzy sąsiedztwa – czyli kwadratowej listy list, gdzie:
+
+* ``graf[i][j] == 1`` oznacza, że istnieje krawędź między wierzchołkami ``i`` i ``j``,
+
+* ``graf[i][j] == 0`` oznacza, że krawędzi nie ma.
+
+Napisz funkcję ``wypisz_stopnie(graf)``, która dla każdego wierzchołka wypisze jego numer oraz liczbę sąsiadów (stopień wierzchołka)
+
 
