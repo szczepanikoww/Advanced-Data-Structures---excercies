@@ -1,18 +1,18 @@
 from binarytree import Node
 
 root = Node("root")
-root.lewy = Node("docs")
-root.prawy = Node("media")
-root.lewy.lewy = Node("szkice")
-root.lewy.prawy = Node("pdf")
-root.prawy.prawy = Node("video")
+root.left = Node("docs")
+root.right = Node("media")
+root.left.left = Node("szkice")
+root.left.right = Node("pdf")
+root.right.right = Node("video")
 
 def zlicz_foldery(korzen):
     #WRITE YOUR CODE HERE
     pass
 
 def czy_zawiera_folder(korzen, nazwa):
-    # WRITE YOUR CODE HERE
+    #WRITE YOUR CODE HERE
     pass
 
 print("Liczba folderów:", zlicz_foldery(root))
